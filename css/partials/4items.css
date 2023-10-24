@@ -1,0 +1,28 @@
+.items{
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.items .itemsmiddle{
+    width: 90%;
+    height: 250px;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    text-align: right;
+}
+.items .itemsmiddle .itemm{
+    display: inline-block;
+    width: 320px;
+    height: 230px;
+    position: relative;
+    top: 50%;
+    right: 2%;
+    transform: translate(0, -50%);
+}
+.items .itemsmiddle .itemm .imageitem>a>img{
+    width: 310px;
+    height: 220px;
+    border-radius: 10%;
+}

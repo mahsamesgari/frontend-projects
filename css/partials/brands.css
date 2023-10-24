@@ -1,0 +1,59 @@
+.container-2 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(105, 104, 104, 0.338);
+    padding: 20px 10px;
+    border-radius: 25px;
+    margin: 0 auto;
+  }
+  
+div.container-2 div.top {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+div.container-2 div.top p {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+div.container-2 .bottom {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+div.container-2 div.bottom div.carousel {
+    width: 95%;  /* Updated to take full width of the parent */
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    /* border: 1px solid #4a4a4a32; */
+    border-radius: 25px;  /* Rounded corners */
+  }
+
+div.container-2 div.bottom div.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically centers content */
+    align-items: center; /* Horizontally centers content */
+    padding: 10px;
+}
+
+
+div.container-2 div.bottom div.carousel div.item:not(:first-child):not(:last-child) {
+  border-left: 1px solid #5857571a;
+  border-right: 1px solid #5857571a;
+  box-sizing: border-box;
+}
+
+div.container-2 div.bottom div.item img {
+    max-width: 85%;
+    margin-bottom: 10px;  /* Add space between image and text */
+  }

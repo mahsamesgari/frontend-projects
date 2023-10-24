@@ -1,0 +1,85 @@
+.readings{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+}
+.readings .chilreadings{
+    width: 85%;
+    height: 430px;
+}
+.readings .chilreadings .topreadings{
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+.readings .chilreadings .topreadings .Rtop{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.readings .chilreadings .topreadings .Rtop>span{
+    font-family: Yekan;
+    font-size: 15px;
+    font-weight: bold;
+}
+.readings .chilreadings .topreadings .Ltop{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.readings .chilreadings .topreadings .Ltop>a{
+    text-decoration: none;
+    font-family: Yekan;
+    font-size: 12px;
+    color: #18BFD9;
+    font-weight: bold;
+}
+.readings .chilreadings .topreadings .Ltop>a>svg{
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+.readings .chilreadings .bottomreadings{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+}
+.readings .chilreadings .bottomreadings .childbottom{
+    display: inline-block;
+    height: 280px;
+    width: 23%; 
+    box-sizing: border-box; 
+    margin: 0
+}
+.readings .chilreadings .bottomreadings .childbottom>a{
+    text-decoration: none;
+    color: #2b2b2b;
+    font-family: Yekan;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+}
+.readings .chilreadings .bottomreadings .childbottom>a>img{
+    width: 100%;
+    height: 170px;
+}
+.readings .chilreadings .bottomreadings .childbottom>a>div.childtext{
+    border: 1px solid #C0C2C5;
+    height: 80px;
+    margin-bottom: 12px;
+    padding: 8px; 
+    box-sizing: border-box;
+}
+div.readings>div.line{
+    width: 100%;
+    height: 2px;
+    color: #2b2b2b;
+    margin-top: 20px;
+    border: 1px solid #d3d3d390 ;
+    position: absolute;
+    bottom: 70px;
+  }

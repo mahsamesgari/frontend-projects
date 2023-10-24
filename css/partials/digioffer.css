@@ -1,0 +1,54 @@
+.container {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 65px;
+    margin-bottom: 70px;
+  }
+  
+div.container div.top {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+div.container div.top p {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: Yekan;
+    font-size: 25px;
+  }
+
+div.container .bottom {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+div.container div.bottom div.carousel {
+    width: 95%;  /* Updated to take full width of the parent */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border: 1px solid #4a4a4a32;
+    border-radius: 25px;  /* Rounded corners */
+  }
+
+div.container div.bottom div.item {
+    text-align: center;
+    border: 1px solid rgba(112, 112, 112, 0.183);
+    padding: 10px;
+  }
+
+div.container div.bottom div.item img {
+    border-radius: 50%;  
+    max-width: 60%;
+    margin-bottom: 10px;  
+  }
+.container .bottom .item>p{
+    font-family: Yekan;
+    font-size: 12px;
+}

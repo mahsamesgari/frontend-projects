@@ -1,0 +1,48 @@
+.classification{
+    width: 100%;
+    height: 450px;
+    box-sizing: border-box;
+    margin-top: 25px;
+    text-align: center;
+}
+.classification .classify .textclass{
+    display: inline-block;
+    margin-top: 0;
+    padding: 10px;
+}
+.classification .classify .textclass>h3{
+    font-family: Yekan;
+    font-size: 20px;
+}
+.classification .classify .imgclassification .category{
+    width: 125px;
+    height: 130px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.classification .classify .imgclassification .category>a>img{
+    width: 105px;
+    height: 105px;
+}
+.classification .classify .imgclassification .classify1 .category>a{
+    text-decoration: none;
+}
+.classification .classify .imgclassification .classify1 .category>a>span{
+    font-family: Yekan;
+    font-size: 12px;
+    color: #2b2b2b;
+}
+.classification .classify .imgclassification .classify2 .category>a{
+    text-decoration: none;
+}
+.classification .classify .imgclassification .classify2 .category>a>span{
+    font-family: Yekan;
+    font-size: 12px;
+    color: #2b2b2b;
+}
+.classification .classify .imgclassification .classify2{
+    margin-top: 35px;
+}
+.classification .classify .imgclassification .classify1{
+    margin-top: 35px;
+}

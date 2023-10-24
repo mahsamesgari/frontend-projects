@@ -1,0 +1,58 @@
+.digital{
+    width: 100%;
+    height: 430px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.digital .childdigital{
+    width: 90%;
+    height: 420px;
+    margin: 0 auto;
+    position: relative;
+}
+table {
+    width: 90%;
+    height: 420px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    border: 1px solid #ccc; 
+}
+.digital .childdigital .childtext{
+    position: absolute;
+    top: 0;
+    font-family: Yekan;
+}
+.digital .childdigital .childtext>h4{
+    margin-bottom: 10px;
+    margin-top: 1px;
+    padding-right: 5px;
+    font-weight: lighter;
+}
+.digital .childdigital .childtext>h6{
+    font-weight: lighter;
+    position: absolute;
+    right: 0;
+    font-size: 9px;
+}
+.digital .childdigital .childimg{
+    margin-top: 35px;
+    padding-right: 1px;
+}
+.digital .childdigital .childimg>a>img{
+    width: 120px;
+    height: 120px;
+}
+.digital .childdigital .childtext2{
+    margin-top: 10px;
+}
+.digital .childdigital .childtext2>a{
+    text-decoration: none;
+    font-family: Yekan;
+    font-size: 12px;
+    color: #4BC5DB;
+}

@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: yekan;
+  src: url(../fonts/IRANYekanWeb.eot);
+  src: url(../fonts/IRANYekanWeb.ttf);
+  src: url(../fonts/IRANYekanWeb.woff);
+  src: url(../fonts/IRANYekanWeb.woff2);
+}
+div.login-container {
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  border: 1px solid lightgray;
+  margin: 200px auto;
+  border-radius: 10px;
+}
+div.login-container > div.logo {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+div.login-container > div.logo > svg {
+  margin-top: 25px;
+  transform: scale(1.5, 1.5);
+}
+div.login-container > div.content {
+  width: inherit;
+  padding: 10px;
+  box-sizing: border-box;
+}
+div.login-container > div.content > span.login {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: yekan;
+}
+div.form {
+  margin-bottom: 20px;
+  text-align: left;
+}
+div.form > input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+button[type="submit"] {
+  width: 100%;
+  background-color: #ef4056;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 300ms;
+}
+button[type="submit"]:hover{
+    background-color: #cf162d;
+}
+div.login-container > div.content > p.content2 {
+  font-size: 12px;
+  font-family: yekan;
+  margin-top: 20px;
+}
+div.login-container > div.content > p.content3 {
+  font-size: 12px;
+  font-family: yekan;
+  margin-bottom: 15px;
+}
+div.login-container > div.form {
+  margin-bottom: 20px;
+}
+div.login-container > button {
+  font-family: yekan;
+  height: 55px;
+  width: 350px;
+  border-radius: 10px;
+}
+div.privacy {
+  margin-top: 16px;
+  text-align: center;
+  box-sizing: border-box;
+}
+div.privacy > p.privacy2 {
+  font-family: yekan;
+  font-size: 12px;
+  margin-top: 20px;
+}

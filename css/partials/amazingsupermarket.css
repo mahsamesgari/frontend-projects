@@ -1,0 +1,115 @@
+.amazingmarket {
+  width: 100%;
+  height: 110px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.amazingmarket .amazemarket {
+  background-color: #eeefee;
+  width: 90%;
+  height: 90px;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+}
+.amazingmarket .amazemarket > div.Rproducts {
+  display: inline-block;
+}
+.amazingmarket .amazemarket .Rproducts .basket {
+  display: inline-block;
+  margin-right: 20px;
+}
+.amazingmarket .amazemarket .Rproducts .text1 {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.amazingmarket .amazemarket .Rproducts .text2 {
+  width: 110px;
+  height: 25px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 22px;
+  background-color: #39ae01;
+  border-radius: 9999px;
+  margin-right: 15px;
+}
+.amazingmarket .amazemarket .Rproducts .text2 > span {
+  display: flex;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  font-family: Yekan;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
+}
+.amazingmarket .amazemarket .Lproducts {
+  display: inline-block;
+  height: 70px;
+  width: 650px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.amazingmarket .amazemarket .Lproducts .Limg .Limages {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  margin-left: 8px;
+  position: relative;
+}
+.amazingmarket .amazemarket .Lproducts .Limg .Limages > a > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.amazingmarket .amazemarket .Lproducts .Limg .Limages .dtext {
+  background-color: #ef394e;
+  display: inline-block;
+  border-radius: 9999px;
+  width: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+.amazingmarket .amazemarket .Lproducts .Limg .Limages .dtext > span {
+  color: whitesmoke;
+  font-family: Yekan;
+  font-size: 15px;
+}
+.amazingmarket .amazemarket .Lproducts .Ltext{
+  background-color: white;
+  width: 140px;
+  height: 50px;
+  border-radius: 9999px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 10px;
+  margin-left: 20px;
+}
+.amazingmarket .amazemarket .Lproducts .Ltext>p{
+  display: inline-block;
+  font-size: 12px;
+  font-family: Yekan;
+  color: #39ae01;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+  margin-right: 10px;
+  padding-right: 10px;
+
+}
+.amazingmarket .amazemarket .Lproducts .Ltext>svg{
+  display: inline-block;
+  fill: #39ae01;
+  vertical-align: middle;
+  margin-right: 5px;
+}

@@ -1,0 +1,118 @@
+.amazing{
+    width: 100%;
+    height: 330px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.amazing .childAmazing{
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #EF3C51;
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 5px !important;
+}
+.amazingItemBG{
+    background-color: transparent !important;
+}
+.amazing .childAmazing .image{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.amazing .childAmazing .image1>img{
+    display: inline-block;
+    width: 50%;
+}
+.amazing .childAmazing .image1>h4{
+    font-family: Yekan;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.amazing .childAmazing .image1>h4>svg{
+    fill: whitesmoke;
+}
+.amazing>.childAmazing .image>img{
+    width: 80%;
+    display: inline-block;
+    margin-top: 10px;
+}
+.amazing .childAmazing .more2>div.more2{
+    /* width: 50px;
+    height: 50px;
+    background-color:white;
+    border-radius: 100%;
+    outline: 2px solid #18bfd3;
+    margin-bottom: 8px;
+    margin: 0 auto;
+    margin-top: 65px;
+    text-align: center ;
+    vertical-align: middle;
+    box-sizing: border-box; */
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100%;
+    outline: 2px solid #18bfd3;
+    margin-bottom: 8px;
+    margin: 0 auto;
+    margin-top: 65px;
+    text-align: center;
+    line-height: 50px; 
+    box-sizing: border-box;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+.amazing>.childAmazing .more2>svg{
+    fill: #18bfd3;
+    box-sizing: border-box;
+}
+.amazing .childAmazing .more2>h5{
+    color: #2b2b2b;
+    text-decoration: none;
+    margin-top: 17px;
+    font-size: 15px;
+    font-family: Yekan;
+    font-weight: lighter;
+    display: inline-block;
+}
+.amazing .childAmazing .discount{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    height: 25px;
+    background-color: #ef394e;
+    border-radius: 20%;
+    margin-right: 5px;
+}
+.amazing .childAmazing .discount>span{
+    font-family: Ykan;
+    font-size: 15px;
+    color: whitesmoke;
+
+}
+.amazing .childAmazing .price1{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10px;
+}
+.amazing .childAmazing .price1>span{
+    font-size: 15px;
+    font-family: Yekan;
+}
+.amazing .childAmazing .price2{
+    display: inline-block;
+    margin-top: 20px;
+    transform: translateX(-50px);
+}
+.amazing .childAmazing .price2{
+    width: 100%;
+    text-align: left;
+    color: #c3c5c7;
+    text-decoration: line-through;
+    padding-left: 60px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: Yekan;
+}

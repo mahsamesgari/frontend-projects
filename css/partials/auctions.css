@@ -1,0 +1,35 @@
+.auction{
+    width: 100%;
+    height: 810px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.auction .childauction{
+    width: 85%;
+    height: 800px;
+    border-radius: 16px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+}
+.auction .childauction .topauction{
+    position: absolute;
+    top: 10px;
+    font-family: Yekan;
+    font-size: 20px;
+}
+.auction .childauction .topauction>svg{
+    vertical-align: middle;
+}
+.auction .childauction .bottomauction{
+    margin-top: 30px;
+}
+.auction .childauction .bottomauction .bottomimg>a>img{
+    width: 100%;
+    height: 255px;
+
+}
